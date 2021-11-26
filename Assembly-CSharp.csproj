@@ -58,8 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\Player_Movement.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Keys.cs" />
-    <Compile Include="Assets\Scripts\room_string.cs" />
-    <Compile Include="Assets\Scripts\Cam_script.cs" />
+    <Compile Include="Assets\Scripts\RoomTransfer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LockedDoor
   - Key
+  - Room
   layers:
   - Default
   - TransparentFX
