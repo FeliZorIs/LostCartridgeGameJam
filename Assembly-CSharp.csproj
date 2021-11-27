@@ -59,6 +59,9 @@
     <Compile Include="Assets\Scripts\Player\Player_Movement.cs" />
     <Compile Include="Assets\Scripts\Player\Player_Keys.cs" />
     <Compile Include="Assets\Scripts\RoomTransfer.cs" />
+    <Compile Include="Assets\Scripts\Player\Player_Health.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy_health.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy_Pusher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

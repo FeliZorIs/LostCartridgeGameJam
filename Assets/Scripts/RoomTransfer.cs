@@ -9,6 +9,7 @@ public class RoomTransfer : MonoBehaviour
 
     public Vector3 cameraShift;
     public Vector3 playerShift;
+    public float smoothing;
 
     // Start is called before the first frame update
     void Start()
@@ -17,16 +18,12 @@ public class RoomTransfer : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            //Maincam.transform.position = Vector3.Lerp(transform.position, Maincam.transform.position += cameraShift, smoothing);
+
             Maincam.transform.position += cameraShift;
             collision.transform.position += playerShift;
         }

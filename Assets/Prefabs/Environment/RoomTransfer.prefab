@@ -70,7 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51117846156b05a45b61e6f33b6b6427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Maincam: {fileID: 0}
-  player: {fileID: 0}
   cameraShift: {x: -16, y: 0, z: 0}
   playerShift: {x: -1, y: 0, z: 0}
+  smoothing: 0.5
